@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://andrea-pollastro.github.io/sitemap.xml
+Sitemap: https://andreapollastro.github.io/sitemap.xml
