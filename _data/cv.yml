@@ -4,9 +4,9 @@
     - name: Full Name
       value: Andrea Pollastro
     - name: Date of Birth
-      value: 14th March 1879
+      value: January 1993
     - name: Languages
-      value: English, German
+      value: Italian, English
 
 - title: Education
   type: time_table
