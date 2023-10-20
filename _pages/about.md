@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student. <a href='https://scholar.google.com/citations?user=I3u01esAAAAJ&hl=it'>ML Researcher</a>. 
 
 profile:
   align: right
