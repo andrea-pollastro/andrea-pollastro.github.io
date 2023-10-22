@@ -11,7 +11,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Affiliat
+    - title: Research Affiliate
       institution: Lawrence Berkeley National Laboratory
       year: Oct 2023 - Present
     - title: Research Fellowship
@@ -21,12 +21,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD, Information and Communication Technology for Health
       institution: University of Naples 'Federico II'
       year: 2020 - Present
-    - title: MS
+    - title: MS, Computer Science, cum laude
       institution: University of Naples 'Federico II'
       year: 2019
-    - title: BS
+    - title: BS, Computer Science
       institution: University of Naples 'Federico II'
       year: 2016
