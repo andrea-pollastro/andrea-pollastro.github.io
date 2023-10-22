@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student. <a href='https://scholar.google.com/citations?user=I3u01esAAAAJ&hl=it'>ML Researcher</a>. 
+subtitle: Computer Scientist | <a href='https://scholar.google.com/citations?user=I3u01esAAAAJ&hl=it'>ML Researcher</a>
 
 profile:
   align: right
@@ -11,15 +11,14 @@ profile:
   more_info: >
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+latest_posts: false  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Aggiungi descrizione
+Hey there! 
+I am a PhD student in Information and Communication Technology for Health at <a href='https://www.unina.it/'>University of Naples 'Federico II'</a> (Naples, IT). The research topics of my PhD focus on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
 
-<!-- TEST. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+During my PhD, I have been a Visiting PhD Student at <a href='https://www.lbl.gov/'>Lawrence Berkeley National Laboratory</a> (Berkeley, CA, USA) to work on applications of Machine Learning techniques on data gathered during the operation of the third-generation synchrotron light source <a href='https://als.lbl.gov/'>Advanced Light Source</a> (ALS) in collaboration with the ALS Accelerator Physics Group. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+My background is purely based on Computer Science: I graduated in 2019 with a MS in Computer Science and in 2016 with a BS in Computer Science, both at the University of Naples 'Federico II'.
