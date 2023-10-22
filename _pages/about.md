@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Student. <a href='https://scholar.google.com/citations?user=I3u01esAAAAJ&hl=it'>ML Researcher</a>. 
 
