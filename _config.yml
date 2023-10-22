@@ -117,9 +117,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Il mio super blog # blog_name will be displayed in your blog page
+blog_name: Andrea Pollastro # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: una descrizione
+blog_description: This part is under construction.
 permalink: /blog/:year/:title/
 
 # Pagination
