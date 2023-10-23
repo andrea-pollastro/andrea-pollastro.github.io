@@ -22,5 +22,3 @@ I am a PhD student in Information and Communication Technology for Health at <a 
 During my PhD, I have been a Visiting PhD Student at <a href='https://www.lbl.gov/'>Lawrence Berkeley National Laboratory</a> (Berkeley, CA, USA) to work on applications of Machine Learning techniques on data gathered during the operation of the third-generation synchrotron light source <a href='https://als.lbl.gov/'>Advanced Light Source</a> (ALS) in collaboration with the ALS Accelerator Physics Group. 
 
 My background is purely based on Computer Science: I graduated in 2019 with a MS in Computer Science and in 2016 with a BS in Computer Science, both at the University of Naples 'Federico II'.
-
-Apart from my work, I'm a music enthusiast who enjoy experimenting with synthesizers and I was a WTF taekwondo athlete and coach many years ago.
