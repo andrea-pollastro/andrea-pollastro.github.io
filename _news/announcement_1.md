@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:loudspeaker: My GitHub website was born. Hello world! :computer:
+:loudspeaker: My GitHub Page was born. Hello world! :computer:
