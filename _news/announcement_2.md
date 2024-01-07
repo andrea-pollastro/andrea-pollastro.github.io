@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I've started a new position as Research Fellow at the University of Naples "Federico II".
+I joined University of Naples "Federico II" as Research Fellow.
