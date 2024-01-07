@@ -8,7 +8,7 @@ middle_name:
 last_name: Pollastro
 email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Andrea Pollastro, Computer Scientist and PhD at University of Naples 'Federico II'
+  Andrea Pollastro, Computer Scientist and PhD Student at University of Naples 'Federico II'
 footer_text: >
 keywords: neural-networks, machine-learning, computer-science, math  # add your own keywords or leave empty
 
