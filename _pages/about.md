@@ -21,6 +21,6 @@ I am a PhD student in Information and Communication Technology for Health at <a 
 
 During my PhD, in 2023, I have been a Visiting PhD Student at <a href='https://www.lbl.gov/'>Lawrence Berkeley National Laboratory</a> (Berkeley, CA, USA) to work on applications of Machine Learning techniques on data gathered during the operation of the third-generation synchrotron light source <a href='https://als.lbl.gov/'>Advanced Light Source</a> (ALS) in collaboration with the ALS Accelerator Physics Group. 
 
-In 2024 I joined <a href='https://home.cern/'>CERN</a> as a research affiliate at the <a href='https://home.cern/science/accelerators/clear'>CLEAR</a> facility, focusing on exploring the application of Machine learning techniques to forecasting problems for particle accelerator research.
+In 2024 I joined <a href='https://home.cern/'>CERN</a> as a research affiliate at the <a href='https://home.cern/science/accelerators/clear'>CLEAR</a> facility, focusing on exploring the application of Machine Learning techniques to forecasting problems for particle accelerator research.
 
 My background is purely based on Computer Science: I graduated in 2019 with a MS in Computer Science and in 2016 with a BS in Computer Science, both at the University of Naples 'Federico II'.
