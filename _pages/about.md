@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Hey there! 
-I am a PhD student in Information and Communication Technology for Health at <a href='https://www.unina.it/'>University of Naples 'Federico II'</a> (Naples, IT). The research topics of my PhD focus on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
+I am a PhD in Information and Communication Technology for Health at <a href='https://www.unina.it/'>University of Naples 'Federico II'</a> (Naples, IT). The research topics of my PhD focus on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
 
 In 2023, I have been a Visiting PhD Student at <a href='https://www.lbl.gov/'>Lawrence Berkeley National Laboratory</a> (Berkeley, CA, USA) to work on applications of Machine Learning techniques on data gathered during the operation of the third-generation synchrotron light source <a href='https://als.lbl.gov/'>Advanced Light Source</a> (ALS) in collaboration with the ALS Accelerator Physics Group. I am currently a research affiliate at the same laboratory.
 
