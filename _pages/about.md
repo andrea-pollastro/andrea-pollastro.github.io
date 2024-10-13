@@ -23,4 +23,4 @@ In 2023, I was awarded a scholarship as a Visiting PhD Student at the <a href='h
 
 In 2024 I joined <a href='https://home.cern/'>CERN</a> (Geneva, CH) as a research affiliate at the <a href='https://home.cern/science/accelerators/clear'>CLEAR</a> facility, focusing on exploring the application of Machine Learning techniques to forecasting problems for particle accelerator research.
 
-My academic background is in Computer Science: I graduated in 2019 with a MS in Computer Science and in 2016 with a BS in Computer Science, both from the University of Naples 'Federico II'. In 2024, I completed my PhD in Information and Communication Technology for Health at the same institution.
+My academic background is in Computer Science: I graduated in 2019 with a MS in Computer Science and in 2016 with a BS in Computer Science, both from the University of Naples 'Federico II'. In 2024, I completed my PhD in Information and Communication Technology for Health at the same institution, focusing on Deep Learning methods.
