@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 Hey there! 
 I am a Postdoctoral Researcher at <a href='https://www.unina.it/'>University of Naples "Federico II"</a> (Naples, IT). My research focuses on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
 
-I graduated <i>summa cum laude</i> with an M.S. in Computer Science in 2019 from the University of Naples "Federico II", where I also completed a Ph.D. in Information and Communication Technology for Health in 2024, with a focus on Deep Learning methods.
+I graduated <i>summa cum laude</i> with an MS in Computer Science in 2019 from the University of Naples "Federico II", where I also completed a PhD in Information and Communication Technology for Health in 2024, with a focus on Deep Learning methods.
 
 In 2023, I was awarded a scholarship as a visiting PhD student at the <a href='https://www.lbl.gov/'>Lawrence Berkeley National Laboratory</a> (Berkeley, CA, USA) to work on applications of Machine Learning techniques on data gathered during the operation of the third-generation synchrotron light source <a href='https://als.lbl.gov/'>Advanced Light Source</a> (ALS) in collaboration with the ALS Accelerator Physics Group. I am currently a research affiliate at the same laboratory.
 
