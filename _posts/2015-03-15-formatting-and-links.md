@@ -26,3 +26,81 @@ categories: sample-posts
 <script src="{{ '/assets/snake_neuroevolution/population.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/interface.js' | relative_url }}"></script>
 
+---
+
+### Overview
+
+This project implements a *Snake Game* controlled by an AI agent trained via **neuroevolution** —  
+a technique that applies evolutionary algorithms to optimize the parameters of neural networks.
+
+The underlying model is a **feed-forward neural network** trained through a **genetic algorithm**, which evolves the network weights and biases over successive generations.
+
+---
+
+### Neural Network Architecture
+
+The neural network consists of **one input layer** with 25 neurons, **two hidden layers** with 16 and 8 neurons respectively with activation function **ReLU**, and **one output layer** with 4 neurons.  
+This architecture encodes the snake’s perception of its environment and its decision-making process.
+
+---
+
+### Input Representation
+
+At each timestep, the snake observes its surroundings along eight spatial directions.  
+For each direction, three quantities are computed:
+
+- The normalized distance to the nearest wall  
+- A binary indicator denoting the presence of an apple  
+- A binary indicator denoting the presence of the snake’s own body  
+
+These values yield \( 3 \times 8 = 24 \) features, augmented by a final input representing the **current body length**, for a total of **25 input neurons**.
+
+---
+
+### Output Semantics
+
+The network produces **four continuous outputs**, corresponding to the possible movement directions:
+
+- Left (L)  
+- Down (D)  
+- Right (R)  
+- Up (U)
+
+The direction associated with the highest activation value is selected as the next movement action.
+
+---
+
+### Neuroevolutionary Training Process
+
+The agent’s control policy is optimized using a **genetic algorithm** applied to a population of 4,000 neural networks.  
+Each individual (i.e., snake) encodes its weights and biases as chromosomes initialized with random values.  
+After each generation, individuals are evaluated using a fitness function that rewards efficient goal-seeking and penalizes non-productive behavior.  
+Through successive generations, this evolutionary process drives the emergence of increasingly competent strategies.
+
+---
+
+### Fitness Function
+
+The fitness function guiding evolution is defined as:
+
+\[
+f(\text{apples}, \text{steps}_c, \text{steps}_f)
+= e^{\text{apples}} + 0.05 \cdot \text{steps}_c - 0.1 \cdot \text{steps}_f
+\]
+
+where:
+
+- \( \text{apples} \): number of apples collected  
+- \( \text{steps}_c \): number of steps taken toward the apple  
+- \( \text{steps}_f \): number of steps taken away from the apple  
+
+The exponential term emphasizes reward accumulation, while the linear terms modulate exploration versus exploitation.  
+All distances are measured using the **Euclidean metric**.
+
+---
+
+### Selection and Genetic Operators
+
+Parent selection is performed using the *roulette-wheel* method, favoring individuals with higher fitness scores.  
+Offspring are generated through **crossover** and **mutation**, with a mutation rate of \( 0.005\% \).  
+This combination of selection pressure and stochastic variation enables the progressive refinement of the neural controllers, converging toward effective behavioral policies over time.
