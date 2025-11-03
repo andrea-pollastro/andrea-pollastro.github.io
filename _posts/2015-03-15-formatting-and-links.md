@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Snake
+title: Neuroevolution in the Snake Game
 date: 2015-03-15 16:40:16
-description: A Snake game
-tags: neuroevolution
-categories: sample-posts
+description: An academic project developed during my M.Sc. studies, exploring the use of neuroevolution to train an AI agent for the classic Snake game.
+tags: neuroevolution, genetic-algorithms, artificial-intelligence, game-ai
+categories: projects
 ---
 
 <div class="d-flex justify-content-end mb-3">
@@ -104,5 +104,5 @@ All distances are measured using the **Euclidean metric**.
 ### Selection and Genetic Operators
 
 Parent selection is performed using the *roulette-wheel* method, favoring individuals with higher fitness scores.  
-Offspring are generated through **crossover** and **mutation**, with a mutation rate of \( 0.005\% \).  
+Offspring are generated through **crossover** and **mutation**, with a mutation rate of $$ 0.005\% $$.  
 This combination of selection pressure and stochastic variation enables the progressive refinement of the neural controllers, converging toward effective behavioral policies over time.
