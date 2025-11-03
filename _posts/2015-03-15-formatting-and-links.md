@@ -7,23 +7,18 @@ tags: neuroevolution
 categories: sample-posts
 ---
 
-<!-- Make all relative URLs (CSV, images) resolve under /assets/snake_neuroevolution/ -->
-<base href="{{ '/assets/snake_neuroevolution/' | relative_url }}">
-
-<!-- Where the p5 canvas will be attached -->
+<!-- p5 will attach its canvas here -->
 <div id="sketch-holder"></div>
 
-{% raw %}
-<!-- Libraries -->
+<!-- p5.js libraries -->
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.dom.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.sound.js' | relative_url }}"></script>
 
-<!-- Your game scripts (keep this order) -->
+<!-- your game scripts (keep this order) -->
 <script src="{{ '/assets/snake_neuroevolution/sketch.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/snake.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/game.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/neuralnetwork.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/population.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/interface.js' | relative_url }}"></script>
-{% endraw %}
