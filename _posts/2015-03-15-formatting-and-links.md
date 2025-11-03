@@ -7,17 +7,16 @@ tags: neuroevolution
 categories: sample-posts
 ---
 
-<p>Here’s a simple interactive JavaScript example:</p>
+<div style="position:relative; width:100%; max-width:900px; margin-inline:auto; padding-top:56.25%; background:#111;">
+  <iframe
+    src="{{ '/assets/games/snake/' | relative_url }}"
+    title="Snake Game"
+    style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+    loading="lazy"
+    allowfullscreen
+  ></iframe>
+</div>
 
-<div id="demo" style="padding:1em; border:1px solid #ccc;"></div>
-{% raw %}
-<script>
-  const box = document.getElementById("demo");
-  let count = 0;
-  box.textContent = "Click me!";
-  box.addEventListener("click", () => {
-    count++;
-    box.textContent = `You clicked ${count} time${count !== 1 ? "s" : ""}!`;
-  });
-</script>
-{% endraw %}
+<p style="text-align:center; opacity:.8; margin-top:.5rem;">
+  Tip: click/tap inside the frame to focus the game.
+</p>
