@@ -30,10 +30,12 @@ categories: sample-posts
 
 ### Overview
 
-This project implements a *Snake Game* controlled by an AI agent trained via **neuroevolution** —  
+This project was developed during my M.Sc. studies as an exploration of applying artificial intelligence to classic arcade environments.  
+It implements a *Snake Game* controlled by an AI agent trained via **neuroevolution** —  
 a technique that applies evolutionary algorithms to optimize the parameters of neural networks.
 
-The underlying model is a **feed-forward neural network** trained through a **genetic algorithm**, which evolves the network weights and biases over successive generations.
+The underlying model is a **Multilayer Perceptron** evolved through a **genetic algorithm**,  
+which iteratively refines the network’s weights and biases across successive generations to improve performance.
 
 ---
 
