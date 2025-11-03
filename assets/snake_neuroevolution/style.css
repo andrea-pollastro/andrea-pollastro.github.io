@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    overflow: auto;
+}
+#sketch-holder{
+    margin: 50px 20%;    
+}
+#sketch-holder canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+#explanation {
+    margin: 40px 50px;
+}
+@media (min-width: 320px) and (max-width: 1024px){
+    .display-4{
+        font-size: 7vw;
+    }
+    .lead {
+        font-size: 3vw;
+    }
+    #explanation {
+        margin: 10px 20px;
+    }
+    #sketch-holder{
+        margin: 0 20%;
+        margin-top: 40px;
+        margin-bottom: 30px;    
+    }
+}
