@@ -7,28 +7,8 @@ tags: neuroevolution
 categories: sample-posts
 ---
 
-<div id="navbar" style="margin-bottom:1rem;">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Snake Game with AI</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#snakeNav" aria-controls="snakeNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="snakeNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.andreapollastro.it" target="_blank" rel="noopener">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <button type="button" id="restart" class="btn btn-light ml-2">Restart</button>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<div class="d-flex justify-content-end mb-3">
+  <button id="restart" class="btn btn-sm btn-outline-primary">Restart</button>
 </div>
 
 <div id="sketch-holder"></div>
