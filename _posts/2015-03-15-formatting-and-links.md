@@ -3,7 +3,7 @@ layout: post
 title: Neuroevolution in the Snake Game
 date: 2015-03-15 16:40:16
 description: An academic project developed during my M.Sc. studies, exploring the use of neuroevolution to train an AI agent for the classic Snake game.
-tags: neuroevolution, genetic-algorithms, artificial-intelligence, game-ai
+tags: neuroevolution, genetic-algorithms, artificial-intelligence
 categories: projects
 ---
 
@@ -11,7 +11,10 @@ categories: projects
   <button id="restart" class="btn btn-sm btn-outline-primary">Restart</button>
 </div>
 
-<div id="sketch-holder"></div>
+<!-- frame + width-aware wrapper -->
+<div class="snake-wrap">
+  <div id="sketch-holder" class="snake-frame"></div>
+</div>
 
 <!-- p5.js libraries -->
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.js' | relative_url }}"></script>
@@ -25,6 +28,28 @@ categories: projects
 <script src="{{ '/assets/snake_neuroevolution/neuralnetwork.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/population.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/interface.js' | relative_url }}"></script>
+
+<!-- theme-aware styling (works in light/dark) -->
+<style>
+  .snake-wrap {
+    margin: 0 auto;              /* center inside the post area */
+    max-width: 100%;             /* never overflow the markdown column */
+  }
+  .snake-frame {
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 6px var(--global-shadow-color);
+    overflow: hidden;
+  }
+  /* responsive canvases produced by p5 */
+  #sketch-holder canvas {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+</style>
 
 ---
 
