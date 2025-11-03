@@ -55,7 +55,7 @@ For each direction, three quantities are computed:
 - A binary indicator denoting the presence of an apple  
 - A binary indicator denoting the presence of the snake’s own body  
 
-These values yield \( 3 \times 8 = 24 \) features, augmented by a final input representing the **current body length**, for a total of **25 input neurons**.
+These values yield $$ 3 \times 8 = 24 $$ features, augmented by a final input representing the **current body length**, for a total of **25 input neurons**.
 
 ---
 
@@ -85,16 +85,16 @@ Through successive generations, this evolutionary process drives the emergence o
 
 The fitness function guiding evolution is defined as:
 
-\[
+$$
 f(\text{apples}, \text{steps}_c, \text{steps}_f)
 = e^{\text{apples}} + 0.05 \cdot \text{steps}_c - 0.1 \cdot \text{steps}_f
-\]
+$$
 
 where:
 
-- \( \text{apples} \): number of apples collected  
-- \( \text{steps}_c \): number of steps taken toward the apple  
-- \( \text{steps}_f \): number of steps taken away from the apple  
+- $$ \text{apples} $$: number of apples collected  
+- $$ \text{steps}_c $$: number of steps taken toward the apple  
+- $$ \text{steps}_f $$: number of steps taken away from the apple  
 
 The exponential term emphasizes reward accumulation, while the linear terms modulate exploration versus exploitation.  
 All distances are measured using the **Euclidean metric**.
