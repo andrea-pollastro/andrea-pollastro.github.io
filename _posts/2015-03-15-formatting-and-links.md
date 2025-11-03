@@ -10,23 +10,6 @@ categories: sample-posts
 <!-- Make all relative paths in your JS resolve under /assets/snake_neuroevolution/ -->
 <base href="{{ '/assets/snake_neuroevolution/' | relative_url }}">
 
-<div id="navbar" style="margin-bottom:1rem;">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Snake Game with AI</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#snakeNav"
-            aria-controls="snakeNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="snakeNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <button type="button" id="restart" class="btn btn-light">Restart</button>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</div>
-
 <div id="sketch-holder"></div>
 
 <div id="explanation" class="jumbotron" style="margin-top:1rem;">
