@@ -7,7 +7,8 @@ tags: neuroevolution
 categories: sample-posts
 ---
 
-<link href="{{ '/assets/snake_neuroevolution/style.css' | relative_url }}" rel="stylesheet">
+<!-- Make all relative paths in your JS resolve under /assets/snake_neuroevolution/ -->
+<base href="{{ '/assets/snake_neuroevolution/' | relative_url }}">
 
 <div id="navbar" style="margin-bottom:1rem;">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -45,16 +46,16 @@ categories: sample-posts
       where \(steps_c\) are steps toward apples and \(steps_f\) are steps away. Distances use Euclidean metric.
     </p>
     <p>Selection via Roulette Wheel; mutation rate \(0.005\%\).</p>
-    <p>Source: <a href="https://github.com/andrea-pollastro/snakegameusingai" target="_blank" rel="noopener">github.com/andrea-pollastro/snakegameusingai</a></p>
   </div>
 </div>
 
 {% raw %}
+<!-- Libraries -->
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.dom.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/libraries/p5.sound.js' | relative_url }}"></script>
 
-<!-- Your game scripts (order preserved from your index.html) -->
+<!-- Your game scripts (keep this order) -->
 <script src="{{ '/assets/snake_neuroevolution/sketch.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/snake.js' | relative_url }}"></script>
 <script src="{{ '/assets/snake_neuroevolution/game.js' | relative_url }}"></script>
