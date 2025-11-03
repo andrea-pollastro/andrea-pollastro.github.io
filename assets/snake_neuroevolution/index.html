@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Snake Game using AI</title>
+
+	<!-- mathjax -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- CSS -->
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- script -->
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<script src="snake.js"></script>
+	<script src="game.js"></script>
+	<script src="neuralnetwork.js"></script>
+	<script src="population.js"></script>
+	<!-- interface -->
+	
+	<div id="navbar">
+		<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+		<a class="navbar-brand" href="#">Snake Game with AI<b></b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="https://www.andreapollastro.it">Home<span class="sr-only">(current)</span></a>
+			</li>
+			<li>
+				<button type="button" id="restart" class="btn btn-light">Restart</button>
+			</li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+	<div id="sketch-holder">
+		<!-- Our sketch will go here! -->
+	</div>
+	<div id="explanation" class="jumbotron">
+		<div id="text_area">
+			<h1 class="display-4">Snake Game with AI</h1>
+			<p class="lead">A <i>Snake Game</i> with AI built using a Feed-Forward Neural Network trained with a Genetic Algorithm.</p>
+			<hr class="my-4">
+			<p> As you can notice from the animation, the Neural Network has one Input Layer with 25 neurons, two Hidden Layers with respectively 16 and 8 neurons, and one Output Layer with 4 neurons.</p>
+			<p>Input values are determined by the snake's observations: the snake can look in 8 different directions. For each direction it sees the distance from the wall and any presence of an apple or a body piece. Distances from the walls are represented by a value between [0,1],
+				while the presence of the apple/body by a 0/1 value. Using these informations, we can obtain 24 different inputs (3 informations per 8 directions).
+				The 25th input is represented by the snake's body length, since it can be a useful information while taking game decisions.
+			</p>
+			<p>
+				Output values represent the four possible choices: left (L), down (D), right (R) and up (U).
+			</p>
+			<p>
+				Genetic Algorithm was realized using a population of 4000 snakes with randomly initialized weights acting as snakes' chromosomes.
+				For each generation, snakes' evaluations was made using the following <i>fitness function</i>:
+				\[f(apples, steps_{c}, steps_{f}) = e^{apples} + steps_{c} * 0.05 - steps_{f} * 0.1\]
+				where \(steps_{c}\) are the number of steps toward the apples, while \(steps_{f}\) are the number of steps away from the apples. The idea is to reward more apples while avoiding snakes going in loop. Distances were computed using <i>Euclidean distance</i>.
+			</p>
+			<p>
+				New snakes were reproduced through crossover from couples selected using <i>Roulette Wheel Selection</i> with a mutation rate equal to \(0.005\%\).
+			</p>
+			<p>
+				You can find the source code <a href="https://github.com/andrea-pollastro/snakegameusingai">here</a>.
+			</p>
+
+		</div>
+	</div>
+	<!-- interface script -->
+	<script src="interface.js"></script>
+</body>
+</html>
