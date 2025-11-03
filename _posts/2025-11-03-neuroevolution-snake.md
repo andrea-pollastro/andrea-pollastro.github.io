@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Neuroevolution in the Snake Game
-date: 2015-03-15 16:40:16
+date: 2025-11-03 23:20:16
 description: An academic project developed during my M.Sc. studies, exploring the use of neuroevolution to train an AI agent for the classic Snake game.
 tags: neuroevolution, genetic-algorithms, artificial-intelligence
 categories: projects
