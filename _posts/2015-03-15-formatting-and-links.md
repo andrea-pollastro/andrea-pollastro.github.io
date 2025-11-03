@@ -7,7 +7,7 @@ tags: neuroevolution
 categories: sample-posts
 ---
 
-<link href="{{ '/assets/games/snake/style.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/assets/snake_neuroevolution/style.css' | relative_url }}" rel="stylesheet">
 
 <div id="navbar" style="margin-bottom:1rem;">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
