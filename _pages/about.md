@@ -23,8 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-Hey there! 
+Hey there!
 I am a Postdoctoral Researcher at <a href='https://www.unina.it/'>University of Naples "Federico II"</a> (Naples, IT). My research focuses on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
 
 I graduated <i>summa cum laude</i> with an MS in Computer Science in 2019 from the University of Naples "Federico II", where I also completed a PhD in Information and Communication Technology for Health in 2024, with a focus on Deep Learning methods.
