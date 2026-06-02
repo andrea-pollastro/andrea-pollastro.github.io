@@ -4,7 +4,6 @@ permalink: /publications/
 title: publications
 description: Peer-Reviewed Journal Publications.
 nav: true
-published: false
 nav_order: 2
 ---
 
