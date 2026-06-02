@@ -23,6 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 Hey there!
 I am a Postdoctoral Researcher at <a href='https://www.unina.it/'>University of Naples "Federico II"</a> (Naples, IT). My research focuses on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
 
