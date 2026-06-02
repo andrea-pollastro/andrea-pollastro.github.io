@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Computer Scientist | <a href='https://scholar.google.com/citations?user=I3u01esAAAAJ&hl=it'>ML Researcher</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there! 
+I am a Postdoctoral Researcher at <a href='https://www.unina.it/'>University of Naples "Federico II"</a> (Naples, IT). My research focuses on developing, applying and improving Machine Learning methodologies, with a particular focus on Artificial Neural Networks.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I graduated <i>summa cum laude</i> with an MS in Computer Science in 2019 from the University of Naples "Federico II", where I also completed a PhD in Information and Communication Technology for Health in 2024, with a focus on Deep Learning methods.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In 2023, I was awarded a scholarship as a visiting PhD student at the <a href='https://www.lbl.gov/'>Lawrence Berkeley National Laboratory</a> (Berkeley, CA, USA) to work on applications of Machine Learning techniques on data gathered during the operation of the third-generation synchrotron light source <a href='https://als.lbl.gov/'>Advanced Light Source</a> (ALS) in collaboration with the ALS Accelerator Physics Group. I am currently a research affiliate at the same laboratory.
+
+In 2024, I joined <a href='https://home.cern/'>CERN</a> (Geneva, CH) as a research affiliate at the <a href='https://home.cern/science/accelerators/clear'>CLEAR</a> facility, focusing on exploring the application of Machine Learning techniques to forecasting problems for particle accelerator research. In the same year, as a visiting postdoctoral researcher, I was the Principal Investigator during an experimental week (10–16 November), funded by CERN through the European Union’s <i>"Horizon Europe - Research and Innovation"</i> programme. The focus of this week was to evaluate the CLEAR accelerator as an AI-driven testbed for CERN’s Efficient Particle Accelerator (EPA) project.
+
+In 2024, I co-authored the paper <a href="https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_86.pdf">"PhysBERT: A Text Embedding Model for Physics Scientific Literature"</a>, which was accepted at the <a href='https://ml4physicalsciences.github.io/2024/'>Machine Learning and the Physical Sciences</a> workshop at the <a href='https://neurips.cc/'>NeurIPS 2024</a> conference. This work introduced PhysBERT, the first sentence embedding model specifically designed for the physics domain. Both the model and the dataset are available on <a href='https://huggingface.co/collections/thellert/physbert-66c21ee8e61ccd71d7d4414a'>HuggingFace</a>.
