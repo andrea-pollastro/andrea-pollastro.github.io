@@ -1,12 +1,4 @@
 /* Derived from https://github.com/dunovank/jupyter-themes/blob/master/jupyterthemes/styles/compiled/monokai.css */
-div#notebook {
-  font-family: sans-serif;
-  font-size: 13pt;
-  line-height: 170%;
-  color: #f8f8f0;
-  -webkit-font-smoothing: antialiased !important;
-  padding-top: 25px !important;
-}
 
 body,
 div.body {
@@ -60,8 +52,7 @@ a:focus {
 #logout:focus,
 #logout.focus,
 #logout:active,
-#logout.active,
-.open > .dropdown-toggle#logout {
+#logout.active {
   color: #f8f8f2;
   background-color: #f8f8f0;
   background: #f8f8f0;
@@ -109,12 +100,6 @@ ul#tabs a {
 .nav > li.disabled > a,
 .nav > li.disabled > a:hover {
   color: #75715e;
-}
-
-div#notebook {
-  font-family: sans-serif;
-  font-size: 13pt;
-  padding-top: 4px;
 }
 
 .container {
@@ -177,6 +162,16 @@ body > #header .header-bar {
     -webkit-transform: scale(1, 1);
     opacity: 0.8;
   }
+}
+
+.fa {
+  display: inline-block;
+  font:
+    normal normal normal 10pt/1 "FontAwesome",
+    sans-serif;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .dropdown-menu {
@@ -250,8 +245,7 @@ body > #header .header-bar {
 
 .btn:hover,
 .btn:active:hover,
-.btn.active:hover,
-.open > .dropdown-toggle.btn:hover {
+.btn.active:hover {
   color: #a6e22e;
   border: 2px solid #2a2a2a;
   background-color: #2a2a2a;
@@ -266,9 +260,7 @@ body > #header .header-bar {
 .btn:active:focus,
 .btn.active:focus,
 .btn:active.focus,
-.btn.active.focus,
-.open > .dropdown-toggle.btn:focus,
-.open > .dropdown-toggle.btn.focus {
+.btn.active.focus {
   color: #a6e22e;
   border: 2px solid #2a2a2a;
   background-color: #2a2a2a !important;
@@ -497,6 +489,26 @@ div.cell.selected:before {
   left: 0px;
   width: 0px;
   height: 100%;
+}
+
+div.prompt,
+.prompt {
+  font-family: monospace, monospace;
+  font-size: 9pt !important;
+  font-weight: normal;
+  color: #75715e;
+  line-height: 170%;
+  padding: 0px;
+  padding-top: 4px;
+  padding-left: 0px;
+  padding-right: 1px;
+  text-align: right !important;
+  min-width: 11.5ex !important;
+  width: 11.5ex !important;
+}
+
+div.cell.selected .prompt {
+  top: 0;
 }
 
 pre,
