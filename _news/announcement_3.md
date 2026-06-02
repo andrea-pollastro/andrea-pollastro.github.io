@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-7-16 12:00:00+0200
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I successfully defended my PhD thesis!
+A simple inline announcement with Markdown emoji! :sparkles: :smile:

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-22 11:52:00+0200
+date: 2015-10-22 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-:loudspeaker: My GitHub Page was born. Hello world! :computer:
+A simple inline announcement.
