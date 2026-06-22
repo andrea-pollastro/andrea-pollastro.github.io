@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-22'
 papers:
   I3u01esAAAAJ:0EnyYjriUFMC:
     citations: 9
@@ -66,7 +66,7 @@ papers:
     title: Dynamic Local Filters in Graph Convolutional Neural Networks
     year: '2023'
   I3u01esAAAAJ:UeHWp8X0CEIC:
-    citations: 103
+    citations: 102
     title: On the effects of data normalization for domain adaptation on EEG data
     year: '2023'
   I3u01esAAAAJ:W7OEmFMy1HYC:
