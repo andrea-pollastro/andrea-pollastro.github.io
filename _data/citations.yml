@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-08'
 papers:
   I3u01esAAAAJ:0EnyYjriUFMC:
     citations: 9
     title: Sinc-EEGNet for improving performance while reducing calibration of a motor imagery-based BCI
     year: '2023'
   I3u01esAAAAJ:2osOgNQ5qMEC:
-    citations: 39
+    citations: 41
     title: Adaptive filters in graph convolutional neural networks
     year: '2023'
   I3u01esAAAAJ:3fE2CSJIrl8C:
@@ -18,7 +18,7 @@ papers:
     title: Beam energy forecasting using machine learning at the clear accelerator
     year: '2025'
   I3u01esAAAAJ:5nxA0vEk-isC:
-    citations: 16
+    citations: 17
     title: Dynamic identification methods and artificial intelligence algorithms for damage detection of masonry infills
     year: '2024'
   I3u01esAAAAJ:7PzlFSSx8tAC:
@@ -34,7 +34,7 @@ papers:
     title: Analyses of a structural health monitoring system on bridges through AI approaches
     year: '2025'
   I3u01esAAAAJ:9yKSN-GCB0IC:
-    citations: 220
+    citations: 226
     title: EEG-based measurement system for monitoring student engagement in learning 4.0
     year: '2022'
   I3u01esAAAAJ:IWHjjKOFINEC:
@@ -42,7 +42,7 @@ papers:
     title: 'IMPACTX: improving model performance by appropriately constraining the training with teacher explanations'
     year: '2026'
   I3u01esAAAAJ:KlAtU1dfN6UC:
-    citations: 14
+    citations: 15
     title: 'PhysBERT: A text embedding model for physics scientific literature'
     year: '2024'
   I3u01esAAAAJ:L8Ckcad2t8MC:
@@ -58,7 +58,7 @@ papers:
     title: Domain-specific text embedding model for accelerator physics
     year: '2025'
   I3u01esAAAAJ:QIV2ME_5wuYC:
-    citations: 1
+    citations: 2
     title: 'Development of a Measurement Procedure for Emotional States Detection Based on Single-Channel Ear-EEG: A Proof-of-Concept Study'
     year: '2026'
   I3u01esAAAAJ:Se3iqnhoufwC:
@@ -66,7 +66,7 @@ papers:
     title: Dynamic Local Filters in Graph Convolutional Neural Networks
     year: '2023'
   I3u01esAAAAJ:UeHWp8X0CEIC:
-    citations: 102
+    citations: 107
     title: On the effects of data normalization for domain adaptation on EEG data
     year: '2023'
   I3u01esAAAAJ:W7OEmFMy1HYC:
@@ -122,7 +122,7 @@ papers:
     title: AI-BASED CRACK DETECTION AND CLASSIFICATION TO AID THE IDENTIFICATION OF SEISMIC FAILURE MECHANISMS OF MASONRY CHURCHES
     year: Unknown Year
   I3u01esAAAAJ:qUcmZB5y_30C:
-    citations: 0
+    citations: 1
     title: Comparative Study of Modal Curvature and AI-Based Approaches for Vibration-Based Damage Detection in Structural Health Monitoring Systems of Prestressed Concrete Beams
     year: '2026'
   I3u01esAAAAJ:roLk4NBRz8UC:
@@ -134,6 +134,6 @@ papers:
     title: Electroencephalography correlates of fear of heights in a virtual reality environment
     year: '2023'
   I3u01esAAAAJ:zYLM7Y9cAGgC:
-    citations: 27
+    citations: 28
     title: Toward the application of XAI methods in EEG-based systems
     year: '2022'
