@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-24'
 papers:
   I3u01esAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -22,7 +22,7 @@ papers:
     title: Beam energy forecasting using machine learning at the clear accelerator
     year: '2025'
   I3u01esAAAAJ:5nxA0vEk-isC:
-    citations: 17
+    citations: 18
     title: Dynamic identification methods and artificial intelligence algorithms for damage detection of masonry infills
     year: '2024'
   I3u01esAAAAJ:7PzlFSSx8tAC:
@@ -70,11 +70,11 @@ papers:
     title: Dynamic Local Filters in Graph Convolutional Neural Networks
     year: '2023'
   I3u01esAAAAJ:UeHWp8X0CEIC:
-    citations: 110
+    citations: 112
     title: On the effects of data normalization for domain adaptation on EEG data
     year: '2023'
   I3u01esAAAAJ:W7OEmFMy1HYC:
-    citations: 71
+    citations: 73
     title: Semi-supervised detection of structural damage using Variational Autoencoder and a One-Class Support Vector Machine
     year: '2023'
   I3u01esAAAAJ:Wp0gIr-vW9MC:
@@ -117,6 +117,10 @@ papers:
     citations: 0
     title: THE JOURNEY TOWARDS A SPECIALIZED TEXT EMBEDDING MODEL FOR ACCELERATOR PHYSICS
     year: Unknown Year
+  I3u01esAAAAJ:hFOr9nPyWt4C:
+    citations: 0
+    title: The Impact of Stochasticity on the Rashomon Effect in Machine Learning
+    year: Unknown Year
   I3u01esAAAAJ:hqOjcs7Dif8C:
     citations: 3
     title: An XAI-Based Masking Approach to Improve Classification Systems.
@@ -138,7 +142,7 @@ papers:
     title: Variational Autoencoder and One-Class Support Vector Machine for unsupervised damage detection
     year: '2022'
   I3u01esAAAAJ:ufrVoPGSRksC:
-    citations: 23
+    citations: 24
     title: Electroencephalography correlates of fear of heights in a virtual reality environment
     year: '2023'
   I3u01esAAAAJ:zYLM7Y9cAGgC:
